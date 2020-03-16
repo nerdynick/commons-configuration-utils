@@ -1,7 +1,76 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.nerdynick</groupId>
-  <artifactId>commons-configuration-utils</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>Apache Commons Config Utilities</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.nerdynick</groupId>
+	<artifactId>commons-configuration-utils</artifactId>
+	<version>0.0.1</version>
+	<name>Apache Commons Config Utilities</name>
+	
+	<url>https://github.com/nerdynick/commons-configuration-utils</url>
+    <scm>
+        <url>https://github.com/nerdynick/commons-configuration-utils</url>
+        <connection>git@github.com:nerdynick/commons-configuration-utils.git</connection>
+        <developerConnection>NerdyNick</developerConnection>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/nerdynick/commons-configuration-utils</url>
+        </repository>
+    </distributionManagement>
+
+	<properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.28</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-configuration2</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.4</version>
+		</dependency>
+	</dependencies>
+	
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
