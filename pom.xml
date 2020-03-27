@@ -14,17 +14,6 @@
 		<connection>git@github.com:nerdynick/commons-configuration-utils.git</connection>
 	</scm>
 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>github</id>
-			<url>https://maven.pkg.github.com/nerdynick/commons-configuration-utils</url>
-		</snapshotRepository>
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
-	</distributionManagement>
-
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
@@ -69,6 +58,16 @@
     <profiles>
         <profile>
             <id>release</id>
+		    <distributionManagement>
+		        <snapshotRepository>
+		            <id>github</id>
+		            <url>https://maven.pkg.github.com/nerdynick/commons-configuration-utils</url>
+		        </snapshotRepository>
+		        <repository>
+		            <id>ossrh</id>
+		            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		        </repository>
+		    </distributionManagement>
             <build>
                 <plugins>
                     <plugin>
