@@ -3,7 +3,7 @@
 
 	<groupId>com.nerdynick</groupId>
 	<artifactId>commons-configuration-utils</artifactId>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.2</version>
 
 	<name>Apache Commons Config Utilities</name>
 	<description>Collection of Utility Libs for working with Apache Commons Configuration 2</description>
@@ -13,7 +13,7 @@
 		<url>https://github.com/nerdynick/commons-configuration-utils</url>
 		<connection>scm:git:ssh://git@github.com/nerdynick/commons-configuration-utils.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/nerdynick/commons-configuration-utils.git</developerConnection>
-	  <tag>commons-configuration-utils-0.1</tag>
+	  <tag>commons-configuration-utils-0.2</tag>
   </scm>
 
 	<licenses>
