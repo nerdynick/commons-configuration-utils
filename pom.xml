@@ -13,8 +13,8 @@
 
 	<scm>
 		<url>https://github.com/nerdynick/commons-configuration-utils</url>
-		<connection>scm:git:git://git@github.com:nerdynick/commons-configuration-utils.git</connection>
-		<developerConnection>scm:git:git://git@github.com:nerdynick/commons-configuration-utils.git</developerConnection>
+		<connection>scm:git:git://github.com/nerdynick/commons-configuration-utils.git</connection>
+		<developerConnection>scm:git:git://github.com/nerdynick/commons-configuration-utils.git</developerConnection>
 	</scm>
 
 	<licenses>
