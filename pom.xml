@@ -11,8 +11,8 @@
 
 	<scm>
 		<url>https://github.com/nerdynick/commons-configuration-utils</url>
-		<connection>scm:git:git://git@github.com/nerdynick/commons-configuration-utils.git</connection>
-		<developerConnection>scm:git:git://git@github.com/nerdynick/commons-configuration-utils.git</developerConnection>
+		<connection>scm:git:ssh://git@github.com/nerdynick/commons-configuration-utils.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/nerdynick/commons-configuration-utils.git</developerConnection>
 	  <tag>commons-configuration-utils-0.1</tag>
   </scm>
 
