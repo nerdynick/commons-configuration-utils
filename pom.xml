@@ -3,7 +3,7 @@
 
 	<groupId>com.nerdynick</groupId>
 	<artifactId>commons-configuration-utils</artifactId>
-	<version>0.1</version>
+	<version>0.1-SNAPSHOT</version>
 
 	<name>Apache Commons Config Utilities</name>
 	<description>Collection of Utility Libs for working with Apache Commons Configuration 2</description>
